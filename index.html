@@ -1,68 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Calculator | Calculate Online</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Custom Style -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Ratan Tata Tribute</title>
 </head>
-
 <body>
-    <!-- Container -->
-    <main class="container row justify-content-center align-items-center mx-auto">
-        <!-- Text Section -->
-        <section class="description col-12 col-md-6 ">
-            <h1 class="text-custom text-center fw">Web Calculator</h1>
-            <p class="details">This is a Simple Calculator. By using this calculator, you can do your necessary calculations easily.: <br>
-                1. Addition, <br>
-                2. Subtraction, <br>
-                3. Multiply, <br>
-                4. Division, <br>
-                5. Percentage</p>
-        </section>
-        <!-- Main Calculator Section -->
-        <section id="calculator" class="col-12 col-md-6 justify-content-center">
-            <div id="display">
-                <p id="result"></p>
-                <p id="preview"></p>
-            </div>
+  <main id="main" class="main">
+    <header class="header">
+      <div class="video-container">
+        <video src="r-tata.mp4" alt="Ratan Tata" id="video-bg" class="video" autoplay loop muted></video>
+      </div>
+      <h1 id="title" class="title">Ratan Tata</h1>
+      <div class="figure-container">
+          <div id="img-div" class="img-div">
+            <figcaption id="img-caption" class="img-caption">
+              Ratan Tata - An Indian businessman, investor, philanthropist and former chairman of Tata Sons
+            </figcaption>
+          </div>
+        
+          <q class="quotes">I don't believe in taking right decisions. I take decisions and then make them right.</q>
+          <p class="p1">An Indian businessman, investor, philanthropist, and former chairman of Tata Sons. Ratan Tata was born on December 28, 1937 in Surat, India. He is known for his impactful leadership and contributions to the Tata Group of Companies. With a degree in architecture from Cornell University, he started his career at Tata Steel and later took on various leadership roles within the conglomerate.<br> His vision and commitment have <br>led to the expansion of Tata Group into a global powerhouse.</p>
+    <p class="p2">Ratan Tata's legacy extends beyond business.He has been involved in numerous philanthropic endeavors, including initiatives in education, healthcare, and rural development. 't believe in taking right decisions.His dedication to social causes and business ethics has earned him several prestigious <br>awards and honors.</p>
+   
+        </figure>
+      </div>
+    </header>
     
-            <div id="buttons">
-                <button class="control" id="clear">AC</button>
-                <button class="control" id="backspace">⌫</button>
-                <button class="sign" id="percentage">%</button>
-                <button class="sign" id="division">÷</button>
-    
-                <button class="number" id="7">7</button>
-                <button class="number" id="8">8</button>
-                <button class="number" id="9">9</button>
-                <button class="sign" id="multiply">×</button>
-    
-                <button class="number" id="4">4</button>
-                <button class="number" id="5">5</button>
-                <button class="number" id="6">6</button>
-                <button class="sign" id="minus">-</button>
-    
-                <button class="number" id="1">1</button>
-                <button class="number" id="2">2</button>
-                <button class="number" id="3">3</button>
-                <button class="sign" id="plus">+</button>
-    
-                <button class="number" id=".">.</button>
-                <button class="number" id="0">0</button>
-                <button class="" id="equal">=</button>
-            </div>
-        </section>
-    </main>
-    <!-- Javascript -->
-    <script src="script.js"></script>
+    <div id="timeline" class="timeline">
+      <header><h2> Timeline</h2></header>
+      <ul class="timeline-list">
+        <li>
+          <div class="year">28th Dec 1937</div>
+          <div class="info">
+            He was born on December 28, 1937 in Surat, India, to Naval Tata and Sonoo. Naval Tata was the adopted son of the Jamsetji Tata’s younger son Ratanji Tata. Jamsetji Tata was the founder of the Tata Group of Companies. Ratan Tata has a brother, Jimmy, and a step-brother, Noel Tata.
+          </div>
+        </li>
+        <li>
+          <div class="year">1962</div>
+          <div class="info">
+            He received his early education from the Campion School, Mumbai and finished his schooling from the Cathedral and John Connon School, Mumbai. In 1962, he obtained his B.S. in architecture with structural engineering from Cornell University, U.S.A.
+          </div>
+        </li>
+        <li>
+          <div class="year">1962</div>
+          <div class="info">
+            He started his career with the Tata Steel division where he shoveled stones and worked with the furnaces along with the blue-collar employees. It was a difficult job and helped him gain a better understanding and respect for his family business.
+          </div>
+        </li>
+        <li>
+          <div class="year">1971</div>
+          <div class="info">
+            He was appointed as the Director-in-Charge of the National Radio & Electronics Company Limited (NELCO) in order to help its struggling finances. He worked towards building a better consumer electronics division but the economic recession and union strikes prevented him from achieving success.
+          </div>
+        </li>
+        <li>
+          <div class="year">1991</div>
+          <div class="info">
+            In 1991, J.R.D. Tata appointed him as the new Chairman of the Tata Group of Companies. This decision came under scrutiny following objections from other executives of the company and questions were raised regarding his ability to run the corporation.
+          </div>
+        </li>
+        <li>
+          <div class="year">2000</div>
+          <div class="info">
+            In 2000, he was conferred the Padma Bhushan, the third highest civilian honor awarded by the Government of India.
+          </div>
+        </li>
+        <li>
+          <div class="year">2004</div>
+          <div class="info">
+            He received the ‘Medal of the Oriental Republic of Uruguay’ from the Government of Uruguay.
+          </div>
+        </li>
+        <li>
+          <div class="year">2005</div>
+          <div class="info">
+            He was conferred the ‘International Distinguished Achievement Award’ by the B'nai B'rith International.
+          </div>
+        </li>
+        <li>
+          <div class="year">2007</div>
+          <div class="info">
+            He was conferred the Honorary Fellowship of The London School of Economics and Political Science.
+          </div>
+        </li>
+        <li>
+          <div class="year">2008</div>
+          <div class="info">
+            In 2008, he was awarded the ‘Padma Vibhusan’, the second highest civilian honor awarded by the Government of India.
+          </div>
+        </li>
+        <li>
+          <div class="year">2009</div>
+          <div class="info">
+            In 2009, he was awarded the title of Honorary Knight Commander of the Order of the British Empire, United Kingdom.
+          </div>
+        </li>
+        <li>
+          <div class="year">2012</div>
+          <div class="info">
+            On his 75th birthday, i.e, on 28 December 2012 he resigned from the post of Chairman of Tata Group. Even after retirement, he is still an active businessman and invests in upcoming promising business ventures.
+          </div>
+        </li>
+      </ul>
+      <div class="read-more">To know more about this great man <a href="https://en.wikipedia.org/wiki/Ratan_Tata" target="_blank" id="tribute-link" class="tribute-link">Read this</a></div>
+    </div>
+    <footer class="footer">
+      Created by Sharvari Salodkar
+    </footer>
+  </main>
 </body>
-
 </html>

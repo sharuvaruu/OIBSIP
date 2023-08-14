@@ -1,0 +1,144 @@
+/* Aesthetic color palette */
+:root {
+  --primary-bg-color: #f3f3f3;
+  --timeline-bg-color: #dbe3e3;
+  --timeline-border-color: #b4c3c3;
+}
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+/* Basic styling */
+body {
+  background: #000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+.header {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  text-shadow: #dbe3e3;
+  text-decoration: double;
+  padding: 10;
+  margin: 45;
+  height: 80vh; /* Adjust as needed */
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header .figure-container, .header .video-container {
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 50vh; /* Adjust as needed */
+}
+
+.video {
+  width: 120%;
+  height: 100vh;
+  
+}
+
+.img-caption, .quotes{
+  text-align: center;
+  margin-top: 10px; /* Adjust as needed */
+  font-family: cursive;
+  text-shadow: #c3b4c3;
+}
+
+/* Timeline styling */
+.timeline {
+  background-color:#ecd3ae ;
+  text-decoration: indigo;
+  font-family: cursive;
+  padding: 1% 0;
+  text-align: center;
+}
+
+.timeline-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.timeline-list li {
+  position: relative;
+  padding: 30px;
+  margin: 20px 0;
+  background-color:#bba7b1;
+  border: 4px solid #3F2E3E;
+  border-radius: 5px;
+}
+
+.year-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffcc00;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: -28px;
+  transform: translateY(-50%);
+}
+
+.info {
+  font-size: 20px;
+  color: #333;
+  text-align: left;
+}
+
+.timeline-list li::before {
+  content: "\2192"; /* Right arrow unicode character */
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: var(--timeline-border-color);
+}
+
+/* Styling for the read more link */
+.read-more {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tribute-link {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tribute-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
